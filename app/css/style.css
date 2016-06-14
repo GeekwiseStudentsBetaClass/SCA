@@ -1,10 +1,343 @@
 
 /*============================ UNIVERSAL =============================*/
+.navbar {
+  margin-bottom: 0px;
+}
 
+#social-icon-row {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
 
 
 /*=========================== HOME ==========================*/
 
+.jumbotron{
+    min-height: 375px;
+    background-size: cover;
+    padding: 0px;
+    margin-top: 0px;
+}
 
+.jumbotron h1 {
+  padding-top: 150px;
+  margin-top: 0px;
+  color: white;
+}
 
-/*=========================== ABOUT ==========================*/
+.social-icon-circle [class*="fa fa-"] {
+    border-radius: 80px;
+    color: #fff;
+    display: inline-block;
+    height: 120px;
+    line-height: 120px;
+    margin: auto 3px;
+    width: 120px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.social-icon-circle p{
+  padding-top: 16px;
+}
+
+.fa-facebook {
+  background-color: #3b5998;
+}
+
+.fa-twitter {
+  background-color: #4099FF;
+}
+
+.fa-cloud {
+  background-color: #FF9533;
+}
+
+.fa-comments-o {
+  background-color: #DD4814;
+}
+
+.fa-user {
+  background-color: #0270BB;
+}
+/*=========================== FACEBOOK ==========================*/
+#facebook-page {
+  background-color: #3b5998;
+  width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.facebook-info {
+  padding-top: 50px;
+}
+
+#facebook-page h1 {
+  color: #fff;
+}
+
+#facebook-page p {
+  color: #fff;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.arrows {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+#facebook-page #big-social-icon-facebook {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200px;
+  margin-left: 50px;
+  margin-right: 0px;
+  padding-right: 60px;
+}
+
+#facebook-page #big-social-icon-facebook :hover{
+  text-decoration: none;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color: #fff;
+}
+
+.glyphicon-arrow-up {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.glyphicon-arrow-down {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+element.style {
+    height: 20px;
+    width: 600px;
+}
+
+.commmentSection input{
+  width: 600px;
+  height: 20px;
+}
+
+.commmentSection {
+    margin-top: 50px;
+}
+
+.comment-button {
+  margin-right: 229px;
+  margin-top: 0px;
+}
+
+input, button, select, textarea {
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.facebook-button {
+  color: #3b5998;
+}
+
+.commmentSection h4{
+  float: left;
+  margin-left: 230px;
+}
+
+.posted-comments {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*=========================== WEATHER API ==========================*/
+
+#weather-page {
+  background-color: #FF9533;
+  width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.weather-info {
+  padding-top: 50px;
+}
+
+#weather-page h1 {
+  color: #fff;
+}
+
+#weather-page p {
+  color: #fff;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#weather-page #big-social-icon-weather {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+#weather-page #big-social-icon-weather :hover{
+  text-decoration: none;
+}
+
+.fa-cloud:before {
+    content: "\f0c2";
+    color: #fff;
+}
+
+.weather-button {
+  color: #FF9533;
+}
+
+/*=========================== TWITTER ==========================*/
+
+#twitter-page {
+  background-color: #4099FF;
+  width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.twitter-info {
+  padding-top: 50px;
+}
+
+#twitter-page h1 {
+  color: #fff;
+}
+
+#twitter-page p {
+  color: #fff;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#twitter-page #big-social-icon-twitter {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+#twitter-page #big-social-icon-twitter :hover{
+  text-decoration: none;
+}
+
+.fa-twitter:before {
+  content: "\f099";
+  color: #fff;
+}
+
+.twitter-button {
+  color: #4099FF;
+}
+
+/*=========================== COMMENTS ==========================*/
+
+#comments-page {
+  background-color: #DD4814;
+  width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.comments-info {
+  padding-top: 50px;
+}
+
+#comments-page h1 {
+  color: #fff;
+}
+
+#comments-page p {
+  color: #fff;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#comments-page #big-social-icon-comments {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+#comments-page #big-social-icon-comments :hover{
+  text-decoration: none;
+}
+
+.fa-comments-o:before {
+  content: "\f0e6";
+  color: #fff;
+}
+
+.comments-button {
+  color: #DD4814;
+}
+
+/*=========================== PROFILE ==========================*/
+
+#profile-page {
+  background-color: #0270BB;
+  width: 100%;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.profile-info {
+  padding-top: 50px;
+}
+
+#profile-page h1 {
+  color: #fff;
+}
+
+#profile-page p {
+  color: #fff;
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#profile-page #big-social-icon-profile {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+#profile-page #big-social-icon-profile :hover{
+  text-decoration: none;
+}
+
+.fa-user:before {
+  content: "\f007";
+  color: #fff;
+}
+
+.profile-button {
+  color: #0270BB;
+}

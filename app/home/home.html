@@ -1,16 +1,45 @@
 <div class="row" ng-controller="homeCtrl">
-    <div class="container">
-        <div class="jumbotron">
-            <div>
-                <h2>Home</h2>
-            </div>
-            <button type="button" name="button" class="btn btn-default" ui-sref="home.facebook">facebook</button>
-            <button type="button" name="button" class="btn btn-default" ui-sref="home.twitter">twitter</button>
-            <button type="button" name="button" class="btn btn-default" ui-sref="home.weather">weather api</button>
-            <button type="button" name="button" class="btn btn-default" ui-sref="home.comments">comments</button>
-            <button type="button" name="button" class="btn btn-default" ui-sref="home.profile">profile picture</button>
+    <div class="container-fluid">
+      <div class="jumbotron image-responsive"  style="background-image: url(img/bitwiseMural.jpg);">
+        <h1 class="logo text-center"></h1>
+        <p class="lead"> <!-- Your message here --> </p>
+        <!-- <p><a href="http://www.YourLinkHere.com" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>< -->
+      </div>
         </div>
-    </div>
+        <div class="row" id="social-icon-row">
+          <div class="col-lg-2 col-lg-offset-1 text-center">
+            <div class="social-icon-circle">
+              <a ui-sref="home.facebook" class="fa fa-facebook"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="social-icon-circle">
+              <a ui-sref="home.weather" class="fa fa-cloud"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="social-icon-circle">
+              <a ui-sref="home.twitter" class="fa fa-twitter"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="social-icon-circle">
+              <a ui-sref="home.comments" class="fa fa-comments-o"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-center">
+            <div class="social-icon-circle">
+              <a ui-sref="home.profile" class="fa fa-user"></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+        </div><!-- END ROW -->
+    </div><!-- END CONTAINER-FLUID -->
 </div>
 
 <ui-view></ui-view>

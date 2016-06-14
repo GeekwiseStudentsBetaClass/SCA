@@ -9,10 +9,7 @@ angular.module('app')
                 templateUrl:'home/home.html',
                 controller:"homeCtrl"
             })
-            // .state('',{
-            //     url:'/',
-            //     templateUrl:''
-            // })
+
             // CREATING A CHILD STATE
             .state('home.facebook',{
               url:'/facebook',
